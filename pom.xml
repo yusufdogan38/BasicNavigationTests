@@ -13,11 +13,14 @@
     </properties>
     <dependencies>
         <dependency>
+            <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+            <!-- Web driver class addition-->
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>3.7.1</version>
         </dependency>
         <dependency>
+            <!-- Website navigation addition-->
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
